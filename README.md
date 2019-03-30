@@ -1,4 +1,4 @@
-###环境：
+###环境
 
 gcc，matlab
 
@@ -13,6 +13,6 @@ gcc，matlab
 3. 在目录下新建（`touch data.txt`）*data.txt*文本文件，将**完整数据** 拷贝到该文件中
 4. 在终端执行命令 `matlab -nodesktop -nosplash -r "display_mountain data.txt"`,等计算机加载完毕，即在屏幕上出现*matlab*所绘制好的图形窗口
 
-###生成效果如下：
+###生成效果如下
 
 ![示意图](./Support/mountain.png)
