@@ -10,4 +10,3 @@ clean:
 
 
 
-#matlab -nodesktop -nosplash -r "display_mountain data.txt"
