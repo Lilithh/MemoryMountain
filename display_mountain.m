@@ -10,11 +10,11 @@ h1 = surf(T{:,:});
 number_stride = 1:size(T,1);
 number_size = 1:size(T,2);
 
-set(gca,'XTick',number_stride)     % set Xticks
-set(gca,'YTick',number_size)      % set Yticks
+%set(gca,'XTick',number_stride)     % set Xticks
+%set(gca,'YTick',number_size)      % set Yticks
 
-set(gca,'xticklabel',T.Properties.VariableNames);
-set(gca,'yticklabel',T.Properties.RowNames);
+%set(gca,'xticklabel',T.Properties.VariableNames);
+%set(gca,'yticklabel',T.Properties.RowNames);
 xlabel('Stride(x4bytes)');
 ylabel('Size(bytes)');
 zlabel('Throughput(MB/s)');

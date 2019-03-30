@@ -26,7 +26,7 @@ int main()
     double Mhz;      /* Clock frequency */
     
     init_data(data, MAXELEMS); /* Initialize each element in data to 1 */
-    Mhz = 2133;/* Estimate the clock frequency */
+    Mhz = 2133;/* Estimate the clock frequency *///原：double mhz(0)
     /* $end mountainmain */
     /* Not shown in the text */
     printf("Clock frequency is approx. %.1f MHz\n", Mhz);
